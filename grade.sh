@@ -10,9 +10,9 @@ git clone $1 student-submission
 files='find student-submission/ListExamples.java'
   if [[ -f $files ]] && [[ $files == *ListExamples* ]]
 then
-    echo "Everything is there"
+    echo "All files present!"
   else
-    echo "Not there"
+    echo "Not all files present!"
   fi
 echo 'Finished cloning'
 
